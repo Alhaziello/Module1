@@ -8,16 +8,28 @@
 </head>
 <body>
     <style>
-        table, th, td {
-          border: 1px solid black;
-          border-collapse: collapse;
-          padding: 14px;
-          font-weight: bold;
-        }
-        body {
-            flex: auto;
-        }
-        </style>
+            table,th,td
+            table
+            {
+              border-collapse:collapse;
+              width:20%;
+              padding: 15px;
+            }
+            td {
+              height:60px;
+              width: 60px;
+            }
+            
+            #row1 {
+              background-color:green;
+              color:white;
+            }
+            th {
+              background-color:grey;
+              color:black;
+              width: 400px;
+            }
+            </style>
 
 <table>
     <thead>
@@ -26,7 +38,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr id="row1">
         <td>Name</td>
         <td>Symbol</td>
         <td>Current</td>
@@ -42,7 +54,7 @@
         <td>52 WK LOW</td>
         <td>P/E RATIO</td>
       </tr>
-      <tr>
+      <tr id="row1">
         <td>Name</td>
         <td>Symbol</td>
         <td>Current</td>
@@ -58,7 +70,7 @@
         <td>52 WK LOW</td>
         <td>P/E RATIO</td>
       </tr>
-      <tr>
+      <tr id="row1">
         <td>Name</td>
         <td>Symbol</td>
         <td>Current</td>
