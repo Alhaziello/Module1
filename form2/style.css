@@ -1,0 +1,25 @@
+.box1{
+    display: inline-flex;
+    margin: auto;
+    align-items: center;
+    justify-content: right;
+    background: red;
+    width: 300px;
+    height: 300px;
+    outline: 5px solid blue;
+}
+.box2{
+    display: inline-flex;
+    margin: auto;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: right;
+    background: red;
+    border-radius: 250px;
+    width: 300px;
+    height: 300px;
+    outline: 5px solid blue;
+}
+body {
+    text-decoration: underline;
+}
